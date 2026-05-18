@@ -90,7 +90,7 @@ if __name__ == '__main__':
     
     # Salvaremos como CSV para melhor performance em Data Science, 
     # mas que abre normalmente no Excel (utf-8-sig + sep=';')
-    ARQUIVO_SAIDA = r'c:\Users\felip\deams-pp\dados\data_project.csv'
+    ARQUIVO_SAIDA = r'c:\Users\felip\deams-pp\dados\data_sipcv.csv'
     
     # Garante que o diretório de saída exista
     os.makedirs(os.path.dirname(ARQUIVO_SAIDA), exist_ok=True)
